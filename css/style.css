@@ -5,7 +5,7 @@
 
 .mdl-layout__header-row {
   justify-content: center;
-  padding: 0;
+  padding: 0deg;
 }
 
 .mdl-layout__content {
@@ -15,7 +15,7 @@
 }
 
 .mdl-textfield__error {
-  color: rgb(233, 205, 240);
+  color: rgb(233 205 240);
 }
 
 .page-content {
@@ -37,5 +37,5 @@ img {
 }
 
 body {
-  background-color: rgb(193, 183, 237);
+  background-color: rgb(193 183 237);
 }
