@@ -5,8 +5,10 @@
 // This file contains the JS functions for index.html
 
 /**
- * Displays an alert with the message "Hello, World!"
+ * Do basic math.
  */
-function myButtonClicked() {
-  alert("Hello, World!")
+
+function doMathClicked() {
+  document.getElementById("multiply-math").innerHTML = "The area is: " + (5 * 3) + "cm²</p>"
+  document.getElementById("perimeter math").innerHTML = "<p> The perimeter is: " + (2 * (5 + 3)) + "cm</p>"
 }
